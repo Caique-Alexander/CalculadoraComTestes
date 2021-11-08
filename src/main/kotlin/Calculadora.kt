@@ -1,32 +1,32 @@
 import kotlin.math.pow
 
-class Calculadora {
+open class Calculadora {
 
-    fun subtracao(a: Int, b: Int): Int {
+    fun Subtracao(a: Int, b: Int): Int {
         return a - b
     }
 
-    fun soma(a: Int, b: Int): Int {
+    fun Soma(a: Int, b: Int): Int {
         return a + b
 
     }
 
-    fun multiplicacao(a: Int, b: Int): Int {
+    fun Multiplicacao(a: Int, b: Int): Int {
         return a * b
 
     }
 
-    fun divisao(a: Int, b: Int): Int {
+    fun Divisao(a: Int, b: Int): Int {
         return a / b
 
     }
 
-    fun potencia(a: Double, b: Double): Double {
+    fun Potencia(a: Double, b: Double): Double {
         return a.pow(b)
 
     }
 
-    fun raizQuadrada(a: Double): Double{
+    fun RaizQuadrada(a: Double): Double{
         return Math.sqrt(a)
 
     }
